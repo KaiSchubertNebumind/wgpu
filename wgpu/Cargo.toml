@@ -117,6 +117,20 @@ fragile-send-sync-non-atomic-wasm = [
     "wgt/fragile-send-sync-non-atomic-wasm",
 ]
 
+max_level_off = ["wgc/max_level_off", "hal/max_level_off"]
+max_level_error = ["wgc/max_level_error", "hal/max_level_error"]
+max_level_warn = ["wgc/max_level_warn", "hal/max_level_warn"]
+max_level_info = ["wgc/max_level_info", "hal/max_level_info"]
+max_level_debug = ["wgc/max_level_debug", "hal/max_level_debug"]
+max_level_trace = ["wgc/max_level_trace", "hal/max_level_trace"]
+
+release_max_level_off = ["wgc/release_max_level_off", "hal/release_max_level_off"]
+release_max_level_error = ["wgc/release_max_level_error", "hal/release_max_level_error"]
+release_max_level_warn = ["wgc/release_max_level_warn", "hal/release_max_level_warn"]
+release_max_level_info = ["wgc/release_max_level_info", "hal/release_max_level_info"]
+release_max_level_debug = ["wgc/release_max_level_debug", "hal/release_max_level_debug"]
+release_max_level_trace = ["wgc/release_max_level_trace", "hal/release_max_level_trace"]
+
 # wgpu-core is always available as an optional dependency, "wgc".
 # Whenever wgpu-core is selected, we want raw window handle support.
 [dependencies.wgc]

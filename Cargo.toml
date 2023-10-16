@@ -54,7 +54,6 @@ authors = ["gfx-rs developers"]
 package = "wgpu-core"
 path = "./wgpu-core"
 version = "22.0.0"
-features = ["max_level_warn", "release_max_level_warn"]
 
 [workspace.dependencies.wgt]
 package = "wgpu-types"
@@ -65,7 +64,6 @@ version = "22.0.0"
 package = "wgpu-hal"
 path = "./wgpu-hal"
 version = "22.0.0"
-features = ["max_level_warn", "release_max_level_warn"]
 
 [workspace.dependencies.naga]
 path = "./naga"
@@ -99,7 +97,7 @@ libc = "0.2"
 # libloading 0.8 switches from `winapi` to `windows-sys`; permit either
 libloading = ">=0.7, <0.9"
 libtest-mimic = "0.6"
-log = { version = "0.4", features = ["max_level_warn", "release_max_level_warn"] }
+log = "0.4"
 nanorand = { version = "0.7", default-features = false, features = ["wyrand"] }
 # https://github.com/Razaekel/noise-rs/issues/335 (Updated dependencies)
 noise = { version = "0.8", git = "https://github.com/Razaekel/noise-rs.git", rev = "c6942d4fb70af26db4441edcf41f90fa115333f2" }
