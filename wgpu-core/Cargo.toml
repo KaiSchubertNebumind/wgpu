@@ -120,7 +120,6 @@ release_max_level_trace = ["log/release_max_level_trace"]
 arrayvec = "0.7"
 bit-vec = "0.7"
 bitflags = "2"
-bit-vec = "0.6"
 codespan-reporting = "0.11"
 rustc-hash = "1.1"
 log = { version = "0.4" }
@@ -129,7 +128,6 @@ parking_lot = ">=0.11, <0.13"
 profiling = { version = "1", default-features = false }
 raw-window-handle = { version = "0.6", optional = true }
 ron = { version = "0.8", optional = true }
-rustc-hash = "1.1"
 serde = { version = "1", features = ["derive"], optional = true }
 smallvec = "1"
 thiserror = "1"
