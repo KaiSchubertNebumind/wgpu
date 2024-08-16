@@ -76,6 +76,8 @@ wgsl = ["wgc?/wgsl"]
 ## Enable accepting naga IR shaders as input.
 naga-ir = ["dep:naga"]
 
+wgsl-in-out = ["naga/wgsl-in", "naga/wgsl-out"]
+
 #! ### Logging & Tracing
 # --------------------------------------------------------------------
 #! The following features do not have any effect on the WebGPU backend.
