@@ -4253,6 +4253,7 @@ dependencies = [
  "bitflags 2.6.0",
  "bytemuck",
  "cfg_aliases",
+ "codespan-reporting",
  "document-features",
  "indexmap",
  "log",
